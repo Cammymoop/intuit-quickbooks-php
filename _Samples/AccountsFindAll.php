@@ -52,14 +52,14 @@ while (1) {
 Example output:
 
 Account[0]: Travel Meals
-* Id: NG:42315
-* AccountType: Expense
-* AccountSubType:
+	 * Id: NG:42315
+	 * AccountType: Expense
+	 * AccountSubType: 
 
 Account[1]: COGs
-* Id: NG:40450
-* AccountType: Cost of Goods Sold
-* AccountSubType:
+	 * Id: NG:40450
+	 * AccountType: Cost of Goods Sold
+	 * AccountSubType: 
 
 ...
 
