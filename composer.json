@@ -1,5 +1,5 @@
 {
-  "name": "elliotchance/intuit-quickbooks",
+  "name": "felixnemis/intuit-quickbooks-php",
   "description": "The PHP SDK for QuickBooks v3 is set of PHP classes that make it easier to call QuickBooks APIs.",
   "license": "MIT",
   "require": {
