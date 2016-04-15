@@ -2,6 +2,8 @@
 
 **This is a composer compatible library from the official PHP SDK.**
 
+(forked from [elliotchance/intuit-quickbooks](https://github.com/elliotchance/intuit-quickbooks) SDK updated to v2.3.1, fixed include path conflict with config.php)
+
 The PHP SDK for QuickBooks v3 is set of PHP classes that make it easier to call
 QuickBooks APIs.  Some of the features included in this SDK are as follows:
 
@@ -32,7 +34,7 @@ QuickBooks APIs.  Some of the features included in this SDK are as follows:
 Using composer:
 
 ```
-composer require elliotchance/intuit-quickbooks
+composer require felixnemis/intuit-quickbooks-php
 ```
 
 # Usage

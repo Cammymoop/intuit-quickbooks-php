@@ -1,3 +1,6 @@
+** This is the original readme provided with SDK **
+
+
 IDG PHP SDK for QuickBooks V3
 
 Version: 2.3.1
