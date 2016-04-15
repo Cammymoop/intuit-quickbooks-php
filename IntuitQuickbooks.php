@@ -1,6 +1,6 @@
 <?php
 
-require_once('config.php');
+require_once(__DIR__ . DIRECTORY_SEPARATOR . 'config.php');
 
 /**
  * This class is required to setup prerequisites for Quickbooks SDK.
