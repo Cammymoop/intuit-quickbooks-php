@@ -213,8 +213,10 @@ class XmlObjectSerializer extends IEntitySerializer {
 		{
 			$oneXmlElementName = (string)$oneXmlObj->getName();
 			
+            /*
 			if ('Fault'==$oneXmlElementName)
 				return NULL;
+            */
 				
 			$phpClassName = XmlObjectSerializer::decorateIntuitEntityToPhpClassName($oneXmlElementName);
 			$onePhpObj = XmlObjectSerializer::PhpObjFromXml($phpClassName, $oneXmlObj->asXML());

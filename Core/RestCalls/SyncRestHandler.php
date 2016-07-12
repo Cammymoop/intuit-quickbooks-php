@@ -268,7 +268,9 @@ class SyncRestHandler extends RestHandler
 			//echo "\n";
 			//echo "ERROR MESSAGE: " . $oauth->debugInfo['body_recv'] . "\n"; // Useful info from Intuit
 			//echo "\n";
-			return FALSE;
+
+            return [$response_code, $response_xml];
+			//return FALSE;
 		}
 
 		list($response_code, $response_xml, $response_headers) = $this->GetOAuthResponseHeaders($oauth);
